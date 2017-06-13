@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 100%;
+    height: 780px;
+    background-color: #d8973b;
+}
+
+#portfolio {
+    height: 936px;
+    width: 100%;
+    background-color: white;
+}
+
+#portfolio .container {
+    height: 800px;
+}
+
+#about {
+    height: 556px;
+    width: 100%;
+    background-color: blue;
+}
+
+#contact {
+    height: 913px;
+    width: 100%;
+    background-color: white;
+}
+
+.container {
+    margin: auto;
+    width: 1170px;
+    padding-top: 50px;
+    height: 500px;
+    
+}
+
+.container h1 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 68px;
+}
+
+.container h2 {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.container p {
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.portfolio-row {
+    margin-top: 25px;
+    text-align: center;
+    background-color: green;
+    overflow: hidden;
+}
+
+.portfolio-item {
+    display: inline-block;
+    width: 370px;
+    height: 267px;
+    background-color: red;
+    
+    margin: 5px;
+}
+
+
+
+footer {
+    height: 327px;
+    width: 100%;
+}
+
+footer .footer-top {
+    height: 256px;
+    background-color: #2c3e50;
+}
+
+footer .footer-bottom {
+    height: 71px;
+    background-color: #233140;
+}
+
+
+/* Stolen from stack overflow. Learn the bits you no comprehend */
+
+
+.fancy {
+  height: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 30%;
+  text-align: center;
+  white-space: nowrap;
+  margin: auto;
+  background-color: transparent;
+}
+.fancy > span {
+  width: 75px;
+  height: 100px;
+  background-color: transparent;
+  display: inline-flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 60px;
+}
+.fancy:before,
+.fancy:after {
+  content: "";
+  height: 6px;
+  background: black;
+  flex:1;
+}
+
+
+form {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#contact .container {
+    text-align: center;
+}
+
+.form-field {
+    width: 970px;
+    height: 85px;
+    border-bottom: 1px solid #eee;
+
+}
+
+
+.form-field input {
+position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+        height: 43px;
+}
+
+.form-field input, .form-field textarea {
+    outline-width: 0;
+    border: 0;
+    font-size: 1.5em;
+    width: 940px;
+
+    
+}
+
+textarea {
+    resize: none;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.form-field.message-control {
+    height: 220px;
+}
+
+button.submit-contact {
+    float: right;
+    margin: 10px;
+}
+
+.built-by {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.built-by span {
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
