@@ -26,7 +26,7 @@ section#main {
 #about {
     height: 556px;
     width: 100%;
-    background-color: blue;
+    background-color: #ffc86a;
 }
 
 #contact {
@@ -69,17 +69,18 @@ section#main img {
 .portfolio-row {
     margin-top: 25px;
     text-align: center;
-    background-color: green;
     overflow: hidden;
 }
 
 .portfolio-item {
     display: inline-block;
-    width: 370px;
-    height: 267px;
+    width: 350px;
+    height: 300px;
     background-color: red;
-    
+    position: relative;
     margin: 5px;
+    text-align: center;
+    overflow: hidden;
 }
 
 
@@ -201,6 +202,7 @@ nav {
     position: fixed;
     transition-duration: 0.3s;
     transition-property: height;
+    z-index: 9999;
 }
 
 .shrunk-nav {
@@ -299,4 +301,72 @@ position: relative;
     font-family: 'Luckiest Guy', cursive;
     color: white;
     font-size: 26px;
+}
+
+
+.portfolio-item-overlay {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: rgba(58,135, 13, 0.85);
+    margin: auto;
+    opacity: 0;
+
+    transition-duration: 0.6s;
+    transition-property: opacity;
+
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 7px;
+}
+
+
+
+.enough-opacity {
+    opacity: 1;
+}
+
+.no-opacity {
+    opacity: 0;
+}
+
+
+.portfolio-image {
+     display: block; 
+     height: 100%; 
+     width: 100%;
+     transition-duration: 0.6s;
+     transition-property: all;
+}
+
+/*
+    Web projects for portfolio:
+        * Kray Map
+        * Frogger
+        * Shout
+    Web Plugins
+        * Draggable
+        * DraggableColumns
+        * DraggableRows
+        * DraggableRowsAndColumns
+
+    iOS projects for portfolio
+        * Virtual Tourist
+        * On the Map
+        * Meme Me
+        * Log Dodge
+        * Mystery Project
+
+
+        What do you want inside the popup?
+        title:
+        description:
+        github:
+        url:
+*/
+
+.portfolio-item-zoomed {
+    transform:scale(1.25);
 }
