@@ -61,10 +61,8 @@ $(document).ready(function() {
         var message = $('#messageField').val().trim();
 
         if((name !== '') && (email !== '') && (message !== '') && isEmail(email)) {
-            console.log('We have passed the test');
             $('.submit-contact').prop('disabled', false);
         } else {
-            console.log('We have not passed the test');
             $('.submit-contact').prop('disabled', true);
         }
     }
