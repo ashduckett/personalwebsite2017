@@ -370,3 +370,11 @@ position: relative;
 .portfolio-item-zoomed {
     transform:scale(1.25);
 }
+
+#contact-form-feedback > p {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+/*    width: 100%;
+    height: 200px;
+    background-color: green; */
+}

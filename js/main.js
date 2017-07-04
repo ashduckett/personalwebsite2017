@@ -24,25 +24,25 @@ $(document).ready(function() {
 
     // Handle contact form submission
     $('.submit-contact').click(function(event) {
+        var self = this;
 
-        console.log('You clicked submit');
-        
         // AJAX the info over
         var name = $('#nameField').val();
         var email = $('#emailField').val();
         var message = $('#messageField').val();
 
-
-        console.log('Your name is ' + name);
-        console.log('Your email is ' + email);
-        console.log('Your message is ' + message);
+        $(this).prop('disabled', true);
 
         $.post("../contact_form.php", {name: name, email: email, message: message}, function(data) {
-            
+            $('#contact-form-feedback > p').html('Thanks for getting in touch. I\'ll get back to you as soon as I can.');
+            $(self).prop('disabled', false);
+
+            // There might be a one hit method for this in jQuery?
+            $('#nameField').val('');
+            $('#emailField').val('');
+            $('#messageField').val('');
+
         });
-
         event.preventDefault();        
-
-        
     });
 });
