@@ -1,4 +1,12 @@
 $(document).ready(function() {
+    // Disable send button initially
+    $('.submit-contact').prop('disabled', true);
+    
+    function isEmail(email) {
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return regex.test(email);
+    }
+
 
     $(window).scroll(function() {
         var scrollTop = $(document).scrollTop();
@@ -45,4 +53,49 @@ $(document).ready(function() {
         });
         event.preventDefault();        
     });
+
+
+    function validateFormInput() {
+        var name = $('#nameField').val().trim();
+        var email = $('#emailField').val().trim();
+        var message = $('#messageField').val().trim();
+
+        if((name !== '') && (email !== '') && (message !== '') && isEmail(email)) {
+            console.log('We have passed the test');
+            $('.submit-contact').prop('disabled', false);
+        } else {
+            console.log('We have not passed the test');
+            $('.submit-contact').prop('disabled', true);
+        }
+    }
+
+    $('#nameField').keyup(function() {
+        validateFormInput();
+    });
+
+    $('#emailField').keyup(function() {
+        validateFormInput();
+    });
+
+    $('#messageField').keyup(function() {
+        validateFormInput();
+    });
+
+    $('#emailField').bind('input propertychange', function() { 
+        validateFormInput();
+    });
+
+    $('#messageField').bind('input propertychange', function() { 
+        validateFormInput();
+    });
+
+    $('#nameField').bind('input propertychange', function() { 
+        validateFormInput();
+    });
+
+
+
+
+
+
 });
