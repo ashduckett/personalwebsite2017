@@ -152,10 +152,11 @@ form {
 
 
 .form-field input {
-position: relative;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
-        height: 43px;
+    height: 43px;
+    background-color: white;
 }
 
 .form-field input, .form-field textarea {
@@ -163,8 +164,6 @@ position: relative;
     border: 0;
     font-size: 1.5em;
     width: 940px;
-
-    
 }
 
 textarea {
@@ -377,4 +376,23 @@ position: relative;
 /*    width: 100%;
     height: 200px;
     background-color: green; */
+}
+
+input {
+    -webkit-appearance:none;
+}
+
+/* Get rid of yukky yellow after auto-completion */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+  background-color: white;
 }
