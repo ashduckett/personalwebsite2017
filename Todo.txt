@@ -1,20 +1,10 @@
-Change line to "Fullstack Developer"	done
+Make Frogger open in a new page.					done
+Make Frogger github point to the right place and open in a new tab.	done
 
+Make the Kray map open in a new tab
+Make the github for it point to the right place and open in a new tab.
 
-Cover portfolio items 100%		done
-Make the fade colour deeper		done
-Get the contact form working		done
-
-Disable button until:
-	* entry in all fields
-	* valid email address
-
-
-
-
-
-
-
-Contact form:
-
-	* Make PHP run
+Locate font awesome icons for:
+	* Live site		<i class="fa fa-play" aria-hidden="true"></i>
+	* Github		<i class="fa fa-github" aria-hidden="true"></i>
+	* Desc			<i class="fa fa-info-circle" aria-hidden="true"></i>
