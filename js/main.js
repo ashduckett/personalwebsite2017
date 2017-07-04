@@ -20,6 +20,29 @@ $(document).ready(function() {
     $('.portfolio-item').mouseleave(function() {
         $(this).children('.portfolio-item-overlay').css('opacity', '0');
         $(this).children('.portfolio-image').removeClass('portfolio-item-zoomed');
+    });
 
+    // Handle contact form submission
+    $('.submit-contact').click(function(event) {
+
+        console.log('You clicked submit');
+        
+        // AJAX the info over
+        var name = $('#nameField').val();
+        var email = $('#emailField').val();
+        var message = $('#messageField').val();
+
+
+        console.log('Your name is ' + name);
+        console.log('Your email is ' + email);
+        console.log('Your message is ' + message);
+
+        $.post("../contact_form.php", {name: name, email: email, message: message}, function(data) {
+            
+        });
+
+        event.preventDefault();        
+
+        
     });
 });

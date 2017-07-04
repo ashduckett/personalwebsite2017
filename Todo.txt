@@ -3,3 +3,14 @@ Change line to "Fullstack Developer"	done
 
 Cover portfolio items 100%		done
 Make the fade colour deeper		done
+Get the contact form working
+
+
+
+
+
+
+
+Contact form:
+
+	* Make PHP run
