@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
 
     $('.portfolio-item').mouseover(function() {
-        $(this).children('.portfolio-item-overlay').css('opacity', '0.7');
+        $(this).children('.portfolio-item-overlay').css('opacity', '0.9');
         $(this).children('.portfolio-image').addClass('portfolio-item-zoomed');
     });
 
