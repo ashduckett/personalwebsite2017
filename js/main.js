@@ -12,10 +12,10 @@ $(document).ready(function() {
         var scrollTop = $(document).scrollTop();
 
         if(scrollTop >= 300) {
-            $('.s').addClass('shrunk-nav');
+            $('nav').addClass('shrunk-nav');
             $('.brand h2').addClass('shrunk-brand');
         } else {
-            $('.s').removeClass('shrunk-nav');
+            $('nav').removeClass('shrunk-nav');
             $('.brand h2').removeClass('shrunk-brand');
         }
     });
