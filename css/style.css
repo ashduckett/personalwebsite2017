@@ -420,3 +420,8 @@ select:-webkit-autofill:focus {
     margin-bottom: 70px;
     font-size: 30px;
 }
+
+nav a {
+    text-decoration: none;
+    color: white;
+}

@@ -92,6 +92,25 @@ $(document).ready(function() {
     });
 
 
+    $('#portfolio-link').click(function() {
+        $('html, body').animate({
+            scrollTop: $('section#portfolio').offset().top - 80
+        }, 800, function(){});
+    });
+
+    $('#about-link').click(function() {
+        $('html, body').animate({
+            scrollTop: $('section#about').offset().top - 80
+        }, 800, function(){});
+    });
+
+    $('#contact-link').click(function() {
+        $('html, body').animate({
+            scrollTop: $('section#contact').offset().top - 80
+        }, 800, function(){});
+    });
+
+
 
 
 
