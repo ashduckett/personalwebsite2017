@@ -5,9 +5,6 @@
 body {
     width: 100%;
 }
-/*html, body {
-    width: 100%;
-}*/
 
 section#main {
     width: 100%;
@@ -21,28 +18,18 @@ section#main {
     background-color: white;
 }
 
-#portfolio .container {
-    /*height: 800px;*/
-}
-
 #about {
-   /* height: 556px;*/
     width: 100%;
     background-color: #ffc86a;
 }
 
 #contact {
-/*    height: 913px;*/
     width: 100%;
     background-color: white;
 }
 
 .container {
     margin: auto;
-    /*width: 1050px;*/
-    /*padding-top: 50px;*/
-    /*height: 500px;*/
-    
 }
 
 .container h1 {
@@ -79,23 +66,17 @@ section#main img {
 .portfolio-item {
     display: inline-block;
     width: 350px;
-    /*height: 300px;*/
-
     position: relative;
     margin: 5px;
     text-align: center;
     overflow: hidden;
 }
 
-
-
 footer {
-    /*height: 327px;*/
     width: 100%;
 }
 
 footer .footer-top {
-   /* height: 256px;*/
     background-color: #2c3e50;
 }
 
@@ -106,8 +87,6 @@ footer .footer-bottom {
 
 
 /* Stolen from stack overflow. Learn the bits you no comprehend */
-
-
 .fancy {
   height: 50px;
   min-height: 50px;
@@ -120,6 +99,7 @@ footer .footer-bottom {
   margin: auto;
   background-color: transparent;
 }
+
 .fancy > span {
   width: 75px;
   display: inline-flex;
@@ -127,6 +107,7 @@ footer .footer-bottom {
   align-items:center;
   font-size: 60px;
 }
+
 .fancy:before,
 .fancy:after {
   content: "";
@@ -150,12 +131,10 @@ form {
 }
 
 .form-field {
-    /*width: 970px;*/
     height: 85px;
     border-bottom: 1px solid #eee;
 
 }
-
 
 .form-field input {
     position: relative;
@@ -189,16 +168,12 @@ button.submit-contact {
 
 .built-by {
     text-align: center;
-/*    position: relative;
-    top: 50%;
-    transform: translateY(-50%);*/
 }
 
 .built-by span {
     color: white;
     font-family: 'Architects Daughter', cursive;
 }
-
 
 nav {
     width: 100%;
@@ -223,7 +198,6 @@ nav .nav-inner {
     height: 100%;
     width: 80%;
     margin: auto;
-
 }
 
 .brand {
@@ -255,7 +229,7 @@ nav .nav-inner {
     margin: 0px;
     padding: 0px;
     list-style: none;
-        position: relative;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -269,32 +243,21 @@ nav .nav-inner {
 }
 
 .footer-content-container {
-    /*height: 75%;*/
     width: 80%;
     margin: auto;
     padding: 10px;
-    /*position: relative;
-    top: 50%;
-    transform: translateY(-50%);*/
     text-align: center;
-
-    
 }
 
 .footer-content-left, .footer-content-right {
-    /*height: 90%;*/
     width: 49%;
     display: inline-block;
     vertical-align:text-top;
-    /*position: relative;
     top: 50%;
-    transform: translateY(-50%);*/
+    transform: translateY(-50%);
 }
 
 .footer-content-left div {
-/*    position: relative;
-    top: 50%;
-    transform: translateY(-50%);*/
     line-height: 2em;
 }
 
@@ -311,7 +274,6 @@ nav .nav-inner {
     font-size: 26px;
 }
 
-
 .portfolio-item-overlay {
     height: 100%;
     width: 100%;
@@ -321,16 +283,12 @@ nav .nav-inner {
     background-color: #57687c;
     margin: auto;
     opacity: 0; 
-
     transition-duration: 0.6s;
     transition-property: opacity;
-
     font-family: 'Lato', sans-serif;
     color: white;
     padding: 20px;
 }
-
-
 
 .enough-opacity {
     opacity: 1;
@@ -339,7 +297,6 @@ nav .nav-inner {
 .no-opacity {
     opacity: 0;
 }
-
 
 .portfolio-image {
      display: block; 
@@ -382,9 +339,6 @@ nav .nav-inner {
 #contact-form-feedback > p {
     text-align: left;
     font-family: 'Lato', sans-serif;
-/*    width: 100%;
-    height: 200px;
-    background-color: green; */
 }
 
 input {

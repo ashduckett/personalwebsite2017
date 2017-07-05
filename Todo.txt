@@ -1,10 +1,1 @@
-Make Frogger open in a new page.					done
-Make Frogger github point to the right place and open in a new tab.	done
-
-Make the Kray map open in a new tab
-Make the github for it point to the right place and open in a new tab.
-
-Locate font awesome icons for:
-	* Live site		<i class="fa fa-play" aria-hidden="true"></i>
-	* Github		<i class="fa fa-github" aria-hidden="true"></i>
-	* Desc			<i class="fa fa-info-circle" aria-hidden="true"></i>
+Take down one pint glass.		done
