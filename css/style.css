@@ -53,6 +53,7 @@ section#main img {
     display: block;
     margin: auto;
     border-radius: 100%;
+
 }
 
 .portfolio-row {
@@ -312,8 +313,8 @@ nav .nav-inner {
 
 .portfolio-image {
      display: block; 
-     height: 100%; 
-     width: 100%;
+    width: 350px;
+    height: 300px;
      transition-duration: 0.6s;
      transition-property: all;
 }
