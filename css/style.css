@@ -30,6 +30,7 @@ section#main {
 
 .container {
     margin: auto;
+
 }
 
 .container h1 {
@@ -57,11 +58,18 @@ section#main img {
 }
 
 .portfolio-row {
-    margin-top: 25px;
+/*    margin-top: 25px;
     text-align: center;
     overflow: hidden;
     width: 70%;
+    margin: auto;*/
+    width: 70%;
     margin: auto;
+    display: flex;
+     flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
 }
 
 .portfolio-item {
@@ -418,6 +426,11 @@ nav a {
     font-family: 'Lato', sans-serif;
     padding: 10px;
     padding-bottom: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
 }
 
 
