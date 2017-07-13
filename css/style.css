@@ -74,7 +74,6 @@ section#main img {
 
 .portfolio-item {
     display: inline-block;
-    width: 350px;
     position: relative;
     margin: 5px;
     text-align: center;
@@ -321,8 +320,8 @@ nav .nav-inner {
 
 .portfolio-image {
      display: block; 
-    width: 350px;
-    height: 300px;
+ /*   width: 350px;
+    height: 300px;*/
      transition-duration: 0.6s;
      transition-property: all;
 }
@@ -393,9 +392,12 @@ select:-webkit-autofill:focus {
 }
 
 .links {
-     position: relative;
+     /*position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
+
+  height: 100%;
+  width: 100%;
 }
 
 .links h3 {
