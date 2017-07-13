@@ -104,7 +104,7 @@ $(document).ready(function() {
     webPortfolioSet.draw($('section#portfolio .container'));
 
 
-    let onTheMap = new PortfolioItem('On the Map', 'img/onTheMap.png', 'Swift/iOS/MapKit', null, 'https://github.com/ashduckett/FEND-Frogger', 'Description');
+    let onTheMap = new PortfolioItem('On the Map', 'img/OnTheMap.png', 'Swift/iOS/MapKit', null, 'https://github.com/ashduckett/FEND-Frogger', 'Description');
     let virtualTourist = new PortfolioItem('Virtual Tourist', 'img/virtualTouristOnPhone.png', 'Swift/iOS/MapKit', null, 'https://github.com/ashduckett/FEND-Frogger', 'Description');
     let pitchPerfect = new PortfolioItem('Pitch Perfect', 'img/pitchPerfectOnPhone.png', 'Autolayout/Swift/iOS', null, 'https://github.com/ashduckett/FEND-Frogger', 'Description');
     let memeMe = new PortfolioItem('Meme Me', 'img/memeMeOnPhone.png', 'Autolayout/Swift/iOS', null, 'https://github.com/ashduckett/FEND-Frogger', 'Description');
