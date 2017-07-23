@@ -9,11 +9,11 @@ $(document).ready(function() {
         this.desc = desc
     };
 
-    let frogger = new PortfolioItem('Frogger', 'img/frogger.png', 'OOP JavaScript/Canvas', 'http://www.ashduckett.com/frogger', 'https://github.com/ashduckett/FEND-Frogger', 'Description');
-    let krays = new PortfolioItem('Kray Twins Atlas', 'img/krays.png', 'OOP JavaScript/Canvas', 'http://www.ashduckett.com/kraymap', 'https://github.com/ashduckett/Neighbourhood-Map', 'Description');
-    let shout = new PortfolioItem('Shout', 'img/shout.png', 'PHP/JS/jQuery', '#', 'https://github.com/ashduckett/shout', 'Description');
-    let ashios = new PortfolioItem('Ashios', 'img/ashios.png', 'Docs/jQuery', '#', 'https://github.com/ashduckett/ashios', 'Description');
-    let myreads = new PortfolioItem('My Reads', 'img/myreads.png', 'React/ECMAScript6', 'https://fast-tundra-20236.herokuapp.com/', 'https://github.com/ashduckett/MyReads', 'Description');
+    let frogger = new PortfolioItem('Frogger', 'img/froggeronmac.png', 'OOP JavaScript/Canvas', 'http://www.ashduckett.com/frogger', 'https://github.com/ashduckett/FEND-Frogger', 'Description');
+    let krays = new PortfolioItem('Kray Twins Atlas', 'img/kraysonmac.png', 'OOP JavaScript/Canvas', 'http://www.ashduckett.com/kraymap', 'https://github.com/ashduckett/Neighbourhood-Map', 'Description');
+    let shout = new PortfolioItem('Shout', 'img/shoutonmac.png', 'PHP/JS/jQuery', 'http://www.ashduckett.com/shout', 'https://github.com/ashduckett/shout', 'Description');
+    let ashios = new PortfolioItem('Ashios', 'img/ashiosonamac.png', 'Docs/jQuery', 'http://www.ashios.com', 'https://github.com/ashduckett/ashios', 'Description');
+    let myreads = new PortfolioItem('My Reads', 'img/myreadsonamac.png', 'React/ECMAScript6', 'https://fast-tundra-20236.herokuapp.com/', 'https://github.com/ashduckett/MyReads', 'Description');
 
     let PortfolioSet = function(title, items) {
         this.title = title
